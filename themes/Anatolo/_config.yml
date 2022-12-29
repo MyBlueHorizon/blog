@@ -88,11 +88,11 @@ gitment:
   client_id: '你的 client ID'
   client_secret: '你的 client secret'
 gitalk:
-  enable: false
-  owner: '你的 GitHub ID'
-  repo: '存储评论的 repo'
-  client_id: '你的 client ID'
-  client_secret: '你的 client secret'
+  enable: true
+  owner: 'MyBlueHorizon'
+  repo: 'blog'
+  client_id: 'ba63e4cd3321d81ab56a'
+  client_secret: ${CLIENT_SECRET}
 # 百度统计设置
 # 请访问 https://tongji.baidu.com/ 
 # 获取统计JS代码放入 Anatolo/source/js/baidu-tongji.js

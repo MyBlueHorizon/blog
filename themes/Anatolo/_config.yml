@@ -92,7 +92,7 @@ gitalk:
   owner: 'MyBlueHorizon'
   repo: 'blog'
   client_id: 'ba63e4cd3321d81ab56a'
-  client_secret: ${CLIENT_SECRET}
+  client_secret: '71ee0a05921a119e4c02eee1baaa1f9ba9d6564b'
 # 百度统计设置
 # 请访问 https://tongji.baidu.com/ 
 # 获取统计JS代码放入 Anatolo/source/js/baidu-tongji.js

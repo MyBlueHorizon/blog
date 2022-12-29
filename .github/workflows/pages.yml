@@ -28,8 +28,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        env:
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
         run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

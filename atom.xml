@@ -6,7 +6,7 @@
   <link href="https://myblurhorizon.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://myblurhorizon.github.io/blog/"/>
-  <updated>2022-12-31T16:00:33.786Z</updated>
+  <updated>2023-01-05T11:48:53.288Z</updated>
   <id>https://myblurhorizon.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客搭建小记</title>
+    <link href="https://myblurhorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://myblurhorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
+    <published>2023-01-05T11:05:00.000Z</published>
+    <updated>2023-01-05T11:48:53.288Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;回想起当初技术力不足时搭建博客的尝试，相比每次手动修改页面 Html 内容和相应的超链接，这次采用</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技术,Hexo" scheme="https://myblurhorizon.github.io/blog/tags/%E6%8A%80%E6%9C%AF-Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2022 年终总结</title>
     <link href="https://myblurhorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     <id>https://myblurhorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2022-12-31T01:55:36.000Z</published>
-    <updated>2022-12-31T16:00:33.786Z</updated>
+    <updated>2023-01-05T11:48:53.288Z</updated>
     
     
       
@@ -44,7 +67,7 @@
     <link href="https://myblurhorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://myblurhorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
     <published>2022-12-28T17:30:00.000Z</published>
-    <updated>2022-12-31T16:00:33.786Z</updated>
+    <updated>2023-01-05T11:48:53.288Z</updated>
     
     
       

@@ -114,7 +114,7 @@ feed:
   content_limit_delim: ' '
   order_by: -date
   icon: 
-  autodiscovery: true
+  autodiscovery: false
   template:
 
 # Deployment

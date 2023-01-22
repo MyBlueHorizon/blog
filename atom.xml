@@ -3,11 +3,11 @@
   <title>云边博客</title>
   
   <subtitle>书写万物，创造神奇</subtitle>
-  <link href="https://myblurhorizon.github.io/blog/atom.xml" rel="self"/>
+  <link href="https://mybluehorizon.github.io/blog/atom.xml" rel="self"/>
   
-  <link href="https://myblurhorizon.github.io/blog/"/>
-  <updated>2023-01-05T14:53:45.050Z</updated>
-  <id>https://myblurhorizon.github.io/blog/</id>
+  <link href="https://mybluehorizon.github.io/blog/"/>
+  <updated>2023-01-22T05:35:02.353Z</updated>
+  <id>https://mybluehorizon.github.io/blog/</id>
   
   <author>
     <name>MyBlueHorizon(云边)</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>博客搭建小记</title>
-    <link href="https://myblurhorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
-    <id>https://myblurhorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
+    <link href="https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
     <published>2023-01-05T11:05:00.000Z</published>
-    <updated>2023-01-05T14:53:45.050Z</updated>
+    <updated>2023-01-22T05:35:02.353Z</updated>
     
     
       
@@ -35,18 +35,18 @@
     
     
     
-    <category term="技术" scheme="https://myblurhorizon.github.io/blog/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://mybluehorizon.github.io/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="Hexo" scheme="https://myblurhorizon.github.io/blog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://mybluehorizon.github.io/blog/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>2022 年终总结</title>
-    <link href="https://myblurhorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>https://myblurhorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
+    <link href="https://mybluehorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <id>https://mybluehorizon.github.io/blog/2022/12/31/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2022-12-31T01:55:36.000Z</published>
-    <updated>2023-01-05T14:53:45.050Z</updated>
+    <updated>2023-01-22T05:35:02.353Z</updated>
     
     
       
@@ -60,16 +60,16 @@
     
     
     
-    <category term="年终总结" scheme="https://myblurhorizon.github.io/blog/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <category term="年终总结" scheme="https://mybluehorizon.github.io/blog/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>旅程的开始</title>
-    <link href="https://myblurhorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
-    <id>https://myblurhorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
+    <link href="https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    <id>https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
     <published>2022-12-28T17:30:00.000Z</published>
-    <updated>2023-01-05T14:53:45.050Z</updated>
+    <updated>2023-01-22T05:35:02.353Z</updated>
     
     
       
@@ -83,7 +83,7 @@
     
     
     
-    <category term="杂记" scheme="https://myblurhorizon.github.io/blog/tags/%E6%9D%82%E8%AE%B0/"/>
+    <category term="杂记" scheme="https://mybluehorizon.github.io/blog/tags/%E6%9D%82%E8%AE%B0/"/>
     
   </entry>
   

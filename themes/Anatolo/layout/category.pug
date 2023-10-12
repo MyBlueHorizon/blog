@@ -9,8 +9,10 @@ block description
 
 block content
   .autopagerize_page_element: .content
-    .archive.animated.fadeInDown
+    .archive
       ul.list-with-title
+        li
+          h3= __("Categories") + ' · ' + page.category
         include mixins
         +postList()
         +make_pager(__('prev'), __('next'))

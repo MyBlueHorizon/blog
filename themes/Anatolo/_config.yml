@@ -6,8 +6,8 @@ defaultTheme: light-mode # light-mode or dark-mode
 
 # icon
 # If the is size is incorrect, please edit /source.css/style.styl
-favicon: /blog/images/favicon.webp
-avatar: /blog/images/logo.webp
+favicon: /images/favicon.webp
+avatar: /images/logo.webp
 logo_dir: /images/logo@2x.webp
 logo_style: width:220px;
 
@@ -20,8 +20,12 @@ copyright:
 # 例如: 
 # ---
 # title: xxx
-# copyright: "本文采用CC-BY-SA-3.0协议，转载请注明出处。"
+# copyright: "本文著作权归作者所有"
 # author: "Li Hua and Han Meimei"
+# ---
+# ---
+# title: xxx
+# copyright: disabled
 # ---
 
 
@@ -47,9 +51,9 @@ weibo:
 
 # Nav menu
 menu:
-  Home: /blog/
-  Archives: /blog/archives
-  Tags: /blog/tags
+  Home: /
+  Archives: /archives
+  Tags: /tags
   #About: /about
   #Links: /links
 
@@ -58,6 +62,7 @@ rightbtn:
   back: true
   search: true       # 从Icarus抠出来的搜索框，关掉可以稍微提高速度
   avatar: true
+  darkLightToggle: true # 切换明亮暗黑主题（还没做好，建议别用）
 
 
 # Some settings
@@ -69,6 +74,8 @@ tocMaxDepth: 6       # if you set 0, toc will close. The maximum is 6.
 
   
 # Comment
+always_enable_comments: false # Always enable comments
+
 duoshuo: 
 disqus: 
 gentie: 

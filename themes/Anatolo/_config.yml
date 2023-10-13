@@ -1,3 +1,4 @@
+# See explaination in 
 # Blog config
 keywords: MyBlueHorizon,云边,博客
 author: MyBlueHorizon(云边)
@@ -11,24 +12,26 @@ avatar: /images/logo.webp
 logo_dir: /images/logo@2x.webp
 logo_style: width:220px;
 
+# Site-wide copyright settings
 copyright:
+  # If `show` is set to true, a copyright statement will be added to the bottom of each article. You can set this individually in the header of each post. For more information, please refer to the documentation
+  # For example: 
+  # ---
+  # title: xxx
+  # copyright: "All rights reserved"
+  # author: "Li Hua and Han Meimei"
+  # ---
+  # ---
+  # title: xxx
+  # copyright: disabled
+  # ---
   show: true
+  # Default copyright statement
   default: "本文著作权归作者所有，请勿转载。"
+  # Show article author in the copyright statement
   show_author: true
 
-# 你可以在文章中对文章进行单独设置copyright
-# 例如: 
-# ---
-# title: xxx
-# copyright: "本文著作权归作者所有"
-# author: "Li Hua and Han Meimei"
-# ---
-# ---
-# title: xxx
-# copyright: disabled
-# ---
-
-
+# Site footbar
 footbar:
   # Copyright
   copyright: 
@@ -60,9 +63,9 @@ menu:
 # Navbar rightbtn
 rightbtn:
   back: true
-  search: true       # 从Icarus抠出来的搜索框，关掉可以稍微提高速度
+  search: true          # Thanks to Icarus for the search box code
   avatar: true
-  darkLightToggle: true # 切换明亮暗黑主题（还没做好，建议别用）
+  darkLightToggle: true # A toggle switch for dark/light theme
 
 
 # Some settings
@@ -90,10 +93,10 @@ valine:
   placeholder: hello, world # comment box placeholder
 gitment:
   enable: false
-  owner: '你的 GitHub ID'
-  repo: '存储评论的 repo'
-  client_id: '你的 client ID'
-  client_secret: '你的 client secret'
+  owner: 'Your GitHub ID'
+  repo: 'Repo to store comments'
+  client_id: 'Your client ID'
+  client_secret: 'Your client secret'
 gitalk:
   enable: true
   owner: 'MyBlueHorizon'

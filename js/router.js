@@ -22,6 +22,18 @@ function makeLink() {
   }
 }
 
+function preparePage() {
+  makeLink();
+
+  if (window.loadComment) {
+    try {
+      window.loadComment();
+    } catch (err) {}
+  }
+
+  make_friends_list();
+}
+
 /**
  * Change Page
  * @param {async () => {body: string, title:string}} callback 
@@ -64,15 +76,8 @@ function replacePage(callback, pushState = true) {
       body,
       title,
     };
-  
-  
-    makeLink();
 
-    if (window.loadComment) {
-      try {
-        window.loadComment();
-      } catch (err) {}
-    }
+    preparePage();
 
     if (!scrollY) {
       if (window.innerWidth > 960) {
@@ -117,10 +122,14 @@ function replacePage(callback, pushState = true) {
       whenOK = () => renderPage(res.url, res.body, res.title, res.scrollY);
     }
   }).catch(err => {
+    if (err && err.reason && err.reason === "NOT HTML") {
+      window.location.href = err.url;
+      return;
+    }
     $(".main.animated").removeClass('fadeOutDown');
     $(".main.animated").addClass('fadeInDown');
     console.error(err);
-    alert(JSON.stringify(err));
+    alert("Something went wrong, please see console...");
   });
 }
 
@@ -146,9 +155,24 @@ function routeTo(url) {
         return historyStates[url];
       } else {
         res = await $.ajax(url);
+        if (typeof res !== 'string') {
+          throw {
+            reason: "NOT HTML",
+            url,
+          }
+        }
         const body = res.match(/<main-outlet>([\s\S]*)<\/main-outlet>/)[1];
+        if (!body) {
+          throw {
+            reason: "NOT HTML",
+            url,
+          }
+        }
         const head = res.match(/<head>([\s\S]*)<\/head>/)[1];
-        const title = head.match(/<title>([\s\S]*)<\/title>/)[1];
+        let title = document.title;
+        if (head) {
+          title = head.match(/<title>([\s\S]*)<\/title>/)[1];
+        }
         return {url, body, title};
       }
     });
@@ -172,9 +196,24 @@ function onPopState(event) {
       return historyStates[document.location.href];
     } else {
       res = await $.ajax(document.location.href);
+      if (typeof res !== 'string') {
+        throw {
+          reason: "No HTML error",
+          url,
+        }
+      }
       const body = res.match(/<main-outlet>([\s\S]*)<\/main-outlet>/)[1];
+      if (!body) {
+        throw {
+          reason: "No Body error",
+          url: document.location.href,
+        }
+      }
       const head = res.match(/<head>([\s\S]*)<\/head>/)[1];
-      const title = head.match(/<title>([\s\S]*)<\/title>/)[1];
+      let title = document.title;
+      if (head) {
+        title = head.match(/<title>([\s\S]*)<\/title>/)[1];
+      }
       return {url: document.location.href, body, title}
     }
   }, false);

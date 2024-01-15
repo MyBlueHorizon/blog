@@ -6,7 +6,7 @@
   <link href="https://mybluehorizon.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://mybluehorizon.github.io/blog/"/>
-  <updated>2024-01-15T13:12:32.556Z</updated>
+  <updated>2024-01-15T14:19:35.673Z</updated>
   <id>https://mybluehorizon.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>云上的 Minecraft 服务器 - 服务器上云记录</title>
+    <link href="https://mybluehorizon.github.io/blog/2023/12/01/%E4%BA%91%E4%B8%8A%E7%9A%84-Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%BA%91%E8%AE%B0%E5%BD%95/"/>
+    <id>https://mybluehorizon.github.io/blog/2023/12/01/%E4%BA%91%E4%B8%8A%E7%9A%84-Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%BA%91%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-12-01T02:24:00.000Z</published>
+    <updated>2024-01-15T14:19:35.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;春去秋来，自己的 Minecraft</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://mybluehorizon.github.io/blog/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Minecraft" scheme="https://mybluehorizon.github.io/blog/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="https://mybluehorizon.github.io/blog/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="游戏" scheme="https://mybluehorizon.github.io/blog/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Minecraft 1.20 互通服务器搭建记录</title>
     <link href="https://mybluehorizon.github.io/blog/2023/06/13/Minecraft-1-20-%E4%BA%92%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/"/>
     <id>https://mybluehorizon.github.io/blog/2023/06/13/Minecraft-1-20-%E4%BA%92%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</id>
     <published>2023-06-13T12:27:10.000Z</published>
-    <updated>2024-01-15T13:12:32.556Z</updated>
+    <updated>2024-01-15T14:19:35.673Z</updated>
     
     
       
@@ -50,7 +79,7 @@
     <link href="https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
     <id>https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
     <published>2023-01-05T11:05:00.000Z</published>
-    <updated>2024-01-15T13:12:32.556Z</updated>
+    <updated>2024-01-15T14:19:35.673Z</updated>
     
     
       
@@ -75,7 +104,7 @@
     <link href="https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
     <published>2022-12-28T17:30:00.000Z</published>
-    <updated>2024-01-15T13:12:32.556Z</updated>
+    <updated>2024-01-15T14:19:35.673Z</updated>
     
     
       

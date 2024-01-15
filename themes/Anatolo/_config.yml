@@ -5,12 +5,14 @@ author: MyBlueHorizon(云边)
 description: 斜阳渐长，清风吹拂。
 defaultTheme: light-mode # light-mode or dark-mode
 
+
 # icon
 # If the is size is incorrect, please edit /source.css/style.styl
 favicon: /images/favicon.webp
 avatar: /images/logo.webp
 logo_dir: /images/logo@2x.webp
 logo_style: width:220px;
+
 
 # Site-wide copyright settings
 copyright:
@@ -31,26 +33,13 @@ copyright:
   # Show article author in the copyright statement
   show_author: true
 
-# Site footbar
-footbar:
-  # Copyright
-  copyright: 
-  # 对于中国用户，如果你有网站备案：
-  beian: 
-  gongan: 
-
 
 # Social Links
 # If you want to add more, go to sidebar.pug
 github: https://github.com/MyBlueHorizon
 mail: tianjizhishang@outlook.com
 rss: /atom.xml
-zhihu: 
-QQ: 
-twitter:
-instagram:
-facebook:
-weibo:
+
 
 # Nav menu
 menu:
@@ -59,6 +48,7 @@ menu:
   Tags: /tags
   #About: /about
   #Links: /links
+
 
 # Navbar rightbtn
 rightbtn:
@@ -75,36 +65,12 @@ useTagCloud: false   # use tagcloud instead of tag list
 tocMaxDepth: 6       # if you set 0, toc will close. The maximum is 6.
 
 
-  
 # Comment
 always_enable_comments: false # Always enable comments
 
-duoshuo: 
-disqus: 
-gentie: 
-# Valine comments https://valine.js.org
-valine:
-  enable: false # if you want use valine, please set enable: true
-  appid:  # your leancloud appid
-  appkey:  # your leancloud appkey
-  notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
-  verify: false # true/false:verify code
-  avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
-  placeholder: hello, world # comment box placeholder
-gitment:
-  enable: false
-  owner: 'Your GitHub ID'
-  repo: 'Repo to store comments'
-  client_id: 'Your client ID'
-  client_secret: 'Your client secret'
 gitalk:
   enable: true
   owner: 'MyBlueHorizon'
   repo: 'blog'
   client_id: 'ba63e4cd3321d81ab56a'
   client_secret: '71ee0a05921a119e4c02eee1baaa1f9ba9d6564b'
-# 百度统计设置
-# 请访问 https://tongji.baidu.com/ 
-# 获取统计JS代码放入 Anatolo/source/js/baidu-tongji.js
-
-Baidutongji: false

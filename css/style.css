@@ -437,55 +437,6 @@ a:active {
 .list-with-title .listing .listing-post a:hover {
   color: #4786d6;
 }
-/* share */
-.share {
-  margin: 0px 30px;
-  display: inline-flex;
-}
-.evernote {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: var(--secondary-250);
-  margin-right: 5px;
-}
-.evernote a {
-  color: var(--secondary);
-  padding: 11px;
-  font-size: 12px;
-}
-.evernote a:hover {
-  color: #ed6243;
-  padding: 11px;
-}
-.weibo {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #ed6243;
-  margin-right: 5px;
-}
-.weibo a {
-  color: var(--secondary);
-  padding: 9px;
-}
-.weibo a:hover {
-  color: #bd4226;
-}
-.twitter {
-  width: 32px;
-  height: 32px;
-  border-radius: 300px;
-  background-color: #59c0fd;
-  margin-right: 5px;
-}
-.twitter a {
-  color: var(--secondary);
-  padding: 9px;
-}
-.twitter a:hover {
-  color: #4b9ece;
-}
 /* about */
 .about {
   margin: 30px;

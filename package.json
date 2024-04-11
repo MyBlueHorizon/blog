@@ -23,6 +23,6 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-hide-posts": "^0.4.2"
+    "hexo-hide-posts": "^0.4.3"
   }
 }

@@ -1,36 +1,15 @@
-mixin require_comment_scripts()
+- var theme_config = { gitalk: theme.gitalk };
+script Anatolo.comment.setConfig(!{ JSON.stringify(theme_config) })
+
+mixin require_comment_scripts
   if theme.gitalk
     if theme.gitalk.enable == true
       link(rel="stylesheet", href=url_for("css/comments/gittalk.css"))
       script(src="https://unpkg.com/gitalk/dist/gitalk.min.js")
-      script.
-        function loadComment(retry = 3) { 
-          const id = site.getThis()?.title || '#{page.title}';
-          if (!id) {
-            if (retry > 0) {
-              setTimeout(() => loadComment(retry - 1), 1000);
-            }
-            return;
-          }
-          const gitalk = new Gitalk({
-            clientID: '#{theme.gitalk.client_id}',
-            clientSecret: '#{theme.gitalk.client_secret}',
-            repo: '#{theme.gitalk.repo}',      // The repository of store comments,
-            owner: '#{theme.gitalk.owner}',
-            admin: ['#{theme.gitalk.owner}'],
-            id,      // Ensure uniqueness and length less than 50
-            distractionFreeMode: false  // Facebook-like distraction free mode
-          })
-          gitalk.render('gitalk_container')
-        }
 
-mixin make_comments()
-  if theme.always_enable_comments || page.comments 
-    script(src= url_for('js/visitors.js'))
-
+mixin make_comments
+  if theme.always_enable_comments || page.comments
     if theme.gitalk
       if theme.gitalk.enable == true
         a#comments
-        div#gitalk_container(style='padding:10px')
-        script.
-          loadComment();
+        #gitalk_container(style="padding: 10px")

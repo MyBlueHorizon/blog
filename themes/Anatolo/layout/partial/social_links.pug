@@ -1,14 +1,16 @@
 ul.social-links
-    if theme.github
+  - var socials = Object.fromEntries(Object.entries(theme.social).filter((x) => x[1]));
+  each link, icon in socials
+    case icon
+      when "mail"
         li
-            a(href= theme.github)
-                i.fa.fa-github
-    if theme.mail
+          a(href="mailto:" + link)
+            i.fa.fa-envelope
+      when "rss"
         li
-            //- a(href= "javascript:alert(\"" + theme.mail +"\")" )
-            a(href= "mailto:" + theme.mail )
-                i.fa.fa-envelope
-    if theme.rss
+          a(href=url_for(link))
+            i.fa.fa-rss
+      default
         li
-            a(href= url_for(theme.rss))
-                i.fa.fa-rss
+          a(href=link)
+            i.fab(class="fa-" + icon)

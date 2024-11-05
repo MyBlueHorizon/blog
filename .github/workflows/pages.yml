@@ -18,9 +18,9 @@ jobs:
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
       - name: Set Directory
+        run: ls
         working-directory: ./themes
-        run: 
-      - name: Install pnpm
+      - name: Insall pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 9

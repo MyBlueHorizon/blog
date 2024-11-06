@@ -34,8 +34,8 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install Theme Dependencies
-        working-directory: ./themes
-        run: pnpm install
+        working-directory: ./themes/Anatolo/
+        run: pnpm i
 
       - name: Cache NPM dependencies
         uses: actions/cache@v4

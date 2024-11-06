@@ -21,11 +21,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Insall pnpm
-        run: npm install -g pnpm
-        working-directory: ./themes
-      - name: Install Theme Dependencies
-        run: pmpm install
+      - name: Insall pnpm and Theme Dependencies
+        run: |
+          npm install -g pnpm
+          pmpm install
         working-directory: ./themes
       - name: Cache NPM dependencies
         uses: actions/cache@v4

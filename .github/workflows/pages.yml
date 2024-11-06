@@ -17,18 +17,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Set Directory
-        run: ls
-        working-directory: ./themes
-      - name: Insall pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          cache: 'pnpm'          
+      - name: Insall pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: Install Theme Dependencies
         run: pmpm install
         working-directory: ./themes

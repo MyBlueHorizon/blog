@@ -22,9 +22,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Insall pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+        run: npm install -g pnpm
+        working-directory: ./themes
       - name: Install Theme Dependencies
         run: pmpm install
         working-directory: ./themes

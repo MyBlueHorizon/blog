@@ -38,7 +38,6 @@ jobs:
         run: ls -la
       - name: Install Dependencies
         run: npm install
-        working-directory: ./..
       - name: Build
         run: npm run build
       - name: Deploy

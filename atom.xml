@@ -6,7 +6,7 @@
   <link href="https://mybluehorizon.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://mybluehorizon.github.io/blog/"/>
-  <updated>2025-08-02T11:16:29.278Z</updated>
+  <updated>2025-08-02T11:19:50.798Z</updated>
   <id>https://mybluehorizon.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Flutter 中 Android NDK 版本警告处理</title>
+    <link href="https://mybluehorizon.github.io/blog/2025/07/20/Flutter-%E4%B8%AD-NDK-%E7%89%88%E6%9C%AC%E8%AD%A6%E5%91%8A%E5%A4%84%E7%90%86/"/>
+    <id>https://mybluehorizon.github.io/blog/2025/07/20/Flutter-%E4%B8%AD-NDK-%E7%89%88%E6%9C%AC%E8%AD%A6%E5%91%8A%E5%A4%84%E7%90%86/</id>
+    <published>2025-07-20T09:55:27.000Z</published>
+    <updated>2025-08-02T11:19:50.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;Flutter 中所指定的默认版本较为老旧，每当插件引入了较新的 Android NDK</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://mybluehorizon.github.io/blog/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Flutter" scheme="https://mybluehorizon.github.io/blog/tags/Flutter/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2024 年终总结</title>
     <link href="https://mybluehorizon.github.io/blog/2025/01/10/2024-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20/"/>
     <id>https://mybluehorizon.github.io/blog/2025/01/10/2024-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20/</id>
     <published>2025-01-10T04:00:00.000Z</published>
-    <updated>2025-08-02T11:16:29.278Z</updated>
+    <updated>2025-08-02T11:19:50.798Z</updated>
     
     
       
@@ -45,7 +70,7 @@
     <link href="https://mybluehorizon.github.io/blog/2024/06/01/%E5%AE%81%E5%9B%AD%E5%89%AA%E5%BD%B1/"/>
     <id>https://mybluehorizon.github.io/blog/2024/06/01/%E5%AE%81%E5%9B%AD%E5%89%AA%E5%BD%B1/</id>
     <published>2024-06-01T10:45:00.000Z</published>
-    <updated>2025-08-02T11:16:29.278Z</updated>
+    <updated>2025-08-02T11:19:50.799Z</updated>
     
     
       
@@ -71,7 +96,7 @@
     <link href="https://mybluehorizon.github.io/blog/2024/01/10/2023-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     <id>https://mybluehorizon.github.io/blog/2024/01/10/2023-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2024-01-10T04:00:00.000Z</published>
-    <updated>2025-08-02T11:16:29.277Z</updated>
+    <updated>2025-08-02T11:19:50.798Z</updated>
     
     
       
@@ -94,7 +119,7 @@
     <link href="https://mybluehorizon.github.io/blog/2023/12/01/%E4%BA%91%E4%B8%8A%E7%9A%84-Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%BA%91%E8%AE%B0%E5%BD%95/"/>
     <id>https://mybluehorizon.github.io/blog/2023/12/01/%E4%BA%91%E4%B8%8A%E7%9A%84-Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%BA%91%E8%AE%B0%E5%BD%95/</id>
     <published>2023-12-01T02:24:00.000Z</published>
-    <updated>2025-08-02T11:16:29.278Z</updated>
+    <updated>2025-08-02T11:19:50.799Z</updated>
     
     
       
@@ -123,7 +148,7 @@
     <link href="https://mybluehorizon.github.io/blog/2023/06/13/Minecraft-1-20-%E4%BA%92%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/"/>
     <id>https://mybluehorizon.github.io/blog/2023/06/13/Minecraft-1-20-%E4%BA%92%E9%80%9A%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</id>
     <published>2023-06-13T12:27:10.000Z</published>
-    <updated>2025-08-02T11:16:29.278Z</updated>
+    <updated>2025-08-02T11:19:50.798Z</updated>
     
     
       
@@ -152,7 +177,7 @@
     <link href="https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/"/>
     <id>https://mybluehorizon.github.io/blog/2023/01/05/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B0/</id>
     <published>2023-01-05T11:05:00.000Z</published>
-    <updated>2025-08-02T11:16:29.278Z</updated>
+    <updated>2025-08-02T11:19:50.799Z</updated>
     
     
       
@@ -177,7 +202,7 @@
     <link href="https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://mybluehorizon.github.io/blog/2022/12/28/%E6%97%85%E7%A8%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</id>
     <published>2022-12-28T17:30:00.000Z</published>
-    <updated>2025-08-02T11:16:29.291Z</updated>
+    <updated>2025-08-02T11:19:50.812Z</updated>
     
     
       
